@@ -1,0 +1,301 @@
+nav {
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgba(132, 152, 175, .8);
+    background-color: rgb(201,219,225);
+    z-index: 1;
+    min-height: 100px;
+    font-family: 'noto sans', sans-serif;
+  }
+  
+  .icon {
+    max-height: 70px;
+  }
+  
+  .custom-toggler.navbar-toggler{
+    border-color: #715f65;
+  }
+    
+  .navbar-brand {
+    color: #715f65;
+    transition-duration: .5s;
+  }
+  
+  .navbar-brand:hover{
+    transform: scale(1.1) !important;
+  }
+  
+  #home, #about1, #skills1, #projects1, #contact1 {
+    color: #5e5e84;
+    transition-duration: .5s !important;
+  }
+  
+  #home:hover, #about1:hover, #skills1:hover, #projects1:hover, #contact1:hover {
+    color: #bc8496;
+    transform: scale(1.1) !important;
+  }
+  
+  #hero-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.35),rgba(255,255,255,.75)), url(img/heroimage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: clamp(100px, 20vh, 200px) 0;
+    font-size: clamp(18px, 20vh, 34px);
+  }
+  
+  #profile-img {
+    margin: clamp(10px, 20vh, 30px) auto;
+    background-image: url(img/profileimg.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(132, 152, 175, .8), 0 6px 20px 0 rgba(132, 152, 175, .8);
+    border: 5px solid #5e5e84;
+    height: clamp(100px, 20vh, 200px);
+    width: clamp(100px, 20vh, 200px);
+  } 
+  
+  
+  #hero-section h2 {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px #bc8496;
+    font-family: 'cy', sans-serif;
+  }
+  
+  #hero-section p {
+    color: white; 
+    font-weight: 700;
+    font-size: clamp(14px, 20vh, 16px);
+    font-style: italic;
+    text-shadow: 1px 1px #bc8496;
+    font-family: 'noto sans', sans-serif;
+  }
+  
+  .heroText {
+    border-radius: 30px;
+    margin: clamp(10px, 20vh, 30px) auto;
+    width: clamp(300px, 50%, 800px);
+    background-color: #8498af7e;
+  }
+  
+  h1,h3 {
+    padding-bottom: 10px;
+    font-family: 'cy', sans-serif;
+    color: #3e7e93;
+    font-weight: 600 !important;
+  }
+
+  h2 {
+    font-family: 'noto sans', sans-serif;
+    color: #5e5e84;
+    font-weight: 400 !important;
+  }
+  
+  #about-section {
+    text-align: center;
+    background-color: #ebebe6;
+    color: #5e5e84;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: calc(16px + .3vw);
+    font-family: 'noto sans', sans-serif;
+  }
+  
+  #about-section img {
+    border-radius: 10px;
+  }
+  
+  #skills-section {
+    text-align: center;
+    background-color: #dac1c9;
+    color: #5e5e84;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'noto sans', sans-serif;
+  }
+  
+  #skills-section img {
+    height: clamp(75px, 8vh, 100px);
+    width: clamp(75px, 8vw, 100px);
+    padding-bottom: 10px;
+  }
+
+  .resume-btn, .portfolio-btn {
+    background-color: rgb(201,219,225);
+    border: none;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'noto sans', sans-serif;
+    color: #5e5e84;
+    font-size: 20px;
+  }
+
+  .resume-btn:hover, .portfolio-btn:hover {
+      background-color: #8498af;
+  }
+  
+  #projects-section {
+    background-color: #ebebe6;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #projects-section img {
+    height: clamp(150px, 8vh, 400px);
+    width: clamp(150px, 8vw, 400px);
+    padding-bottom: 10px;
+  }
+
+  #contact-section {
+    background-color: #dac1c9;
+    text-align: center;
+    color: #8498af;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  #contact-section i, h2 i {
+    font-size: clamp(80px, 10vh, 100px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: .5s;
+    color: #5e5e84;
+  }
+  
+  #contact-section::first-child {
+    padding-top: 0;
+  }
+  
+  #contact-section i:hover, h2 i:hover {
+    color: #8498af;
+  }
+
+  .resume-body {
+    background-color: #ebebe6;
+  }
+
+  #resume {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .resume-header {
+      margin-top: 20px;
+  }
+
+  .resume {
+      margin-top:40px;
+  }
+
+  .resume img {
+    border: 2px solid #715f65;
+  }
+
+  .resume-text, .doughnuts-text, .katsu-text, .dutchbros-text, .LLB-text, .atomo-text {
+      font-size: calc(16px + .3vw);
+      width: 80%;
+      margin: auto;
+      margin-bottom: 20px;
+  }
+
+  span {
+      font-family: 'cy', sans-serif;
+      color: #3e7e93;
+      font-weight: 700;
+  }
+
+  .portfolio-header {
+      margin-top: 20px;
+  }
+
+  .portfolio img {
+    height: clamp(200px, 8vh, 600px);
+    width: clamp(200px, 8vw, 600px);
+    padding-bottom: 10px;
+    margin-top: 40px;
+    transition-duration: .5s;
+  }
+
+  .portfolio img:hover {
+      opacity: 80%;
+      transition-duration: .5s;
+      transform: scale(1.1);
+  }
+
+  /* .caption {
+      margin: auto;
+      opacity: 0;
+      z-index: 10;
+      position: absolute;
+  }
+
+  .caption:hover {
+      opacity: 1;
+  } */
+
+  .doughnuts-header, .katsu-header, .dutchbros-header, .LLB-header, .atomo-header {
+      margin-top: 20px;
+  }
+
+  .carousel {
+      margin-bottom: 30px;
+  }
+
+  .carousel-item img {
+    border-radius: 10px;
+    height: clamp(200px, 50vw, 500px) !important;
+    width: 100%;
+   }
+   
+   #daringDoughnutsApp a, #daringDoughnuts a, #atomo a{
+     color: #5e5e84;
+     font-weight: bold;
+     text-decoration: none;
+     transition-duration: .5s;
+   }
+
+   #daringDoughnutsApp a:hover, #daringDoughnuts a:hover, #atomo a:hover {
+     color: #3e7e93;
+     transition-duration: .5s;
+   }
+
+   .appGif {
+    height: clamp(200px, 50vw, 500px) !important;
+    padding-left: 150px;
+   }
+
+   .final-image {
+     width: 70%;
+     border: 4px dotted #bc8496;
+   }
+
+   .bold {
+     font-size: 13px;
+     font-weight:bold;
+     color: #bc8496;
+   }
+
+   .card-text {
+     font-family: 'noto sans', sans-serif;
+     color:#5e5e84;
+   }
+
+   .a-logo {
+     width: 40%;
+     margin: auto;
+   }
+   
+  footer {
+    height: 40px;
+    background-color: rgb(201,219,225);
+    color: #5e5e84;
+    font-weight: 500;
+    margin: auto;
+    align-content: center;
+    line-height: 40px;
+  }
+  
+  
+  
